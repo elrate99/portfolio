@@ -101,11 +101,12 @@ h2 {
     width: 12.6875rem;
     height: 2.875rem;
     background-color: #D7D1C9;
+    padding-left: 1.25rem;
     border: none;
     appearance: none;
     overflow: hidden;
     background-image: url(../img/option-arrow.svg);
-    background-position: right;
+    background-position: 90%;
     background-repeat: no-repeat;
 }
 
