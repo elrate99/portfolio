@@ -1,0 +1,502 @@
+/* Main */
+html {
+    font-size: 16px;
+}
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #2E2F22;
+}
+
+
+h2,
+h3,
+h4 {
+    font-family: "Spectral SC", sans-serif;
+    font-weight: 700;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+/* Header Styles */
+
+header {
+    width: 100%;
+    height: 36.3125rem;
+    background-image: url(/img/sonnie-hiles-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.logo {
+    margin-left: 7.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.links-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+    margin-right: 7.5rem;
+}
+
+.links-link {
+    text-decoration: none;
+    color: #2E2F22;
+}
+
+.links-list li {
+    margin-right: 5.1875rem;
+}
+
+.links-list li:last-child {
+    margin-right: 0rem;
+}
+
+/* Articles Styles */
+
+
+.articles {
+    margin: 5.3125rem 0 5.3125rem 0;
+    width: 75rem;
+    
+    justify-content: space-around;
+}
+
+.header-articles {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 3.0625rem;
+}
+
+h2 {
+    font-size: 2.25rem;
+}
+
+#filtration-theme {
+    border-radius: 10px;
+    width: 12.6875rem;
+    height: 2.875rem;
+    background-color: #D7D1C9;
+    border: none;
+    appearance: none;
+    overflow: hidden;
+    background-image: url(/img/option-arrow.svg);
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+option {
+    font-size: 1rem;
+}
+
+.articles .container {
+    display: flex;
+}
+
+.card-article { 
+    display: flex;
+    flex-direction: column;
+}
+
+.card-article .card-article-image {
+    margin-right: 0;
+}
+
+.card-article img {
+    border-radius: 10px;
+    width: 24.1875rem;
+    height: 16.75rem;
+    margin-bottom: 1.6875rem;
+    margin-right: 1.25rem;
+}
+
+
+.card-article-heading {
+    font-size: 1.125rem;
+    margin-bottom: .5rem;
+    width: 24.1875rem;
+}
+
+.card-article-text {
+    font-size: 1rem;
+    line-height: 162.5%;
+    font-family: "Open Sans", sans-serif;
+    width: 24.1875rem;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    max-width: 24.1875rem;
+}
+
+.tags,
+.date {
+    color: rgba(46, 47, 34, 0.70);
+    line-height: 162.5%;
+}
+
+.main-article {
+    margin-top: 3.75rem;
+    width: 36.875rem;
+    height: 34.5rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    align-content: space-around;
+    padding-bottom: 3.68rem;
+}
+
+.main-article:nth-child(1) {
+    margin-right: 1.25rem;
+}
+
+.main-article-heading {
+    color: #fff;
+    font-size: 1.25rem;
+    font-family: "Spectral SC",sans-serif;
+    font-weight: 700;
+}
+
+.main-article-text {
+    color: #fff;
+    font-size: 1.125rem;
+    line-height: 162.5%;
+}
+
+.main-article .tags {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 1rem;
+    line-height: 162.5%;
+}
+
+.main-article .date {
+    color: rgba(255, 255, 255, 0.70);
+    font-size: 1rem;
+    line-height: 162.5%;
+}
+
+.img-4 {
+    background-image: url(/img/image-4.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.img-5 {
+    background-image: url(/img/image-5.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.article-footer {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.article-button {
+    display: flex;
+    justify-content: center;
+}
+
+.show-more-button {
+    margin-top: 7.25rem;
+    background-color: #fff;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    width: 14rem;
+    height: 2.625rem;
+    color: #202117;
+    border: 1px solid #202117;
+    border-radius: 10px;
+}
+
+/* About Me Styles */
+
+.about-me {
+    width: 75rem;
+    height: 49.8125rem;
+    margin-bottom: 5.3125rem;
+}
+
+.about-me .container {
+    display: flex;
+    justify-content: center;
+}
+
+.about-me-heading {
+    text-align: center;
+    margin-bottom: 3.0625rem;
+}
+
+.container-about-me {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.about-me-banner {
+    width: 36.875rem;
+    height: 43.3125rem;
+    background-size: cover;
+    background-position: center;
+}
+
+.about-me-banner img {
+    border-radius: 0.625rem;
+}
+
+.about-me-desc {
+    width: 31.625rem;
+    height: 22.875rem;
+}
+
+.about-me-desc p {
+    line-height: 1.625rem;
+    font-size: 1rem;
+    font-family: "Open-Sans",sans-serif;
+    font-weight: 400;
+}
+
+.about-me-link {
+    color: #2E2F22;
+}
+
+.about-me-cit {
+    width: 34.375rem;
+    height: 10rem;
+    font-size: 1.875rem;
+    line-height: 133.333%;
+    font-style: italic;
+    font-family: "Open-Sans",sans-serif;
+    padding-left: 1.25rem;
+    margin-left: 1.25rem;
+    border-left: 3px solid #D7D1C9;
+}
+
+/* Portfolio Styles */
+
+.portfolio {
+    width: 75rem;
+    height: 48.6875rem;
+}
+
+.portfolio-heading {
+    text-align: center;
+    margin-bottom: 3.0625rem;
+}
+
+.portfolio .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-card {
+    width: 24.1875rem;
+    height: 32.8125rem;
+    display: flex;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.blur {
+    backdrop-filter: blur(10px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.first {
+    background: url(/img/portfolio-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.second {
+    background: url(/img/portfolio-2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.third {
+    background: url(/img/portfolio-3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.portfolio-card-category {
+    font-size: 1.25rem;
+    color: #2E2F22;
+    width: 80%;
+}
+
+.portfolio-card-heading {
+    font-size: 1.125rem;
+    margin-top: 2.75rem;
+    margin-bottom: 1.0625rem;
+    width: 80%;
+}
+
+.portfolio-card-description {
+    font-size: 1rem;
+    line-height: 162.5%;
+    width: 80%;
+}
+
+.white {
+    color: #fff;
+}
+
+.portfolio-button {
+    display: flex;
+    justify-content: center;
+}
+
+/* Write Me Styles */
+
+.write-me {
+    margin-top: 5.3125rem;
+    margin-bottom: 5.0625rem;
+}
+
+.write-me-heading {
+    margin-bottom: 3.0625rem;
+    text-align: center;
+}
+
+label {
+    color: #2E2F22;
+    font-family: "Spectral SC", sans-serif;
+    font-size: 1.125rem;
+    line-height: 155.556%;
+    font-weight: 700;
+    margin-bottom: 0.75rem;
+}
+
+#name,
+#email {
+    width: 24.75rem;
+    height: 3.9375rem;
+    border-radius: 0.625rem;
+    border: 1px solid #202117;
+    background: rgba(255, 255, 255, 0.40);
+    padding-left: 1.25rem;
+    opacity: 0.75;
+    flex-shrink: 0;
+}
+
+textarea {
+    border-radius: 0.625rem;
+    border: 1px solid #202117;
+    background: rgba(255, 255, 255, 0.40);
+    width: 52.3125rem;
+    height: 18.3125rem;
+    padding-left: 1.25rem;
+    padding-top: 1.25rem;
+    opacity: 0.75;
+}
+
+.mail {
+    width: 62.25rem;
+    height: 39.8125rem;
+    background-image: url(/img/form-background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #c4c4c4;
+    border-radius: 0.625rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    display: inline-block;
+}
+
+.write-me .container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+}
+
+#name {
+    margin-right: 1.25rem;
+}
+
+.contacts {
+    margin-bottom: 1.25rem;
+}
+
+.submit-button {
+    margin-top: 1.25rem;
+    background-color: transparent;
+    text-align: center;
+    font-family: "Open Sans", sans-serif;
+    font-size: 1rem;
+    width: 14rem;
+    height: 2.625rem;
+    color: #202117;
+    border: 1px solid #202117;
+    border-radius: 10px;
+}
+
+footer {
+    width: 100%;
+    height: 11.3125rem;
+    background-color: #D7D1C9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-li {
+    display: inline;
+    margin-right: 7.5rem;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: #2E2F22;
+    font-size: 1.125rem;
+}
+
+.nav-li:last-child {
+    margin-right: 0;
+}
